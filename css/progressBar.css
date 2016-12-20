@@ -1,0 +1,228 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 25, 2016, 6:59:34 PM
+    Author     : Mourique
+*/
+
+#container {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+}
+
+#myProgress {
+  position: relative;
+  width: 100%;
+  height: 15px;
+  background-color: #ddd;
+}
+
+#myBar {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+//==============================new prgoress updatable============
+
+#progress {
+    position:relative;
+    width:250px;
+    height:20px;
+    border:1px solid red;
+    background-color: #f3f3f3;
+     //background: #4CAF50;
+   
+
+}
+
+#progress .progress-bar {
+   /* background:blue;
+    height:20px;
+    width:20%;*/
+    display:inline-block;
+   // position: absolute;
+  width: 0%;
+  height: 20px;
+  background-color: #4CAF50;
+}
+
+#progress .progress-text {
+    position:static;
+    float: left;
+    z-index:2;
+    right:0;
+    color: yellow; 
+}
+
+///level two bar=====
+
+#progress2 {
+    position:relative;
+    width:250px;
+    height:20px;
+    border:1px solid red;
+}
+
+#progress2 .progress-bar {
+    background:#4CAF50;
+    height:20px;
+    width:0%;
+    display:inline-block;
+}
+
+#progress2 .progress-text {
+    position:left;
+    float: left;
+    z-index:2;
+    right:0;
+    color: yellow;
+}
+
+//========================================LEVEL 3 =========================
+
+#progress3 {
+    position:relative;
+    width:250px;
+    height:20px;
+    border:1px solid red;
+}
+
+#progress3 .progress-bar {
+    background:#4CAF50;
+    height:20px;
+    width:0%;
+    display:inline-block;
+}
+
+#progress3 .progress-text {
+    position:left;
+    float: left;
+    z-index:2;
+    right:0;
+    color: yellow;
+}
+
+//==========level 4=======================
+
+#progress4 {
+    position:relative;
+    width:250px;
+    height:20px;
+    border:1px solid red;
+}
+
+#progress4 .progress-bar {
+    background:#4CAF50;
+    height:20px;
+    width:0%;
+    display:inline-block;
+}
+
+#progress4 .progress-text {
+    position:left;
+    float: left;
+    z-index:2;
+    right:0;
+    color: yellow;
+}
+
+//=============level 5====================
+
+#progress5 {
+    position:relative;
+    width:250px;
+    height:20px;
+    border:1px solid red;
+}
+
+#progress5 .progress-bar {
+    background:#4CAF50;
+    height:20px;
+    width:0%;
+    display:inline-block;
+}
+
+#progress5 .progress-text {
+    position:left;
+    float: left;
+    z-index:2;
+    right:0;
+    color: yellow;
+}
+
+//===========info window progress==============================
+
+#progress01 {
+    position:relative;
+    width:250px;
+    height:20px;
+    border:1px solid red;
+}
+
+#progress01 .progress-bar {
+    background:#4CAF50;
+    height:20px;
+    width:0%;
+    display:inline-block;
+}
+
+#progress01 .progress-text {
+    position:left;
+    z-index:2;
+    right:0;
+    //color: yellow; 
+  
+}
+//-----------------
+
+#progress02 {
+    position:relative;
+    width:250px;
+    height:20px;
+    border:1px solid red;
+}
+
+#progress02 .progress-bar {
+    background:#4CAF50;
+    height:20px;
+    width:0%;
+    display:inline-block;
+}
+
+#progress02 .progress-text {
+    position:left;
+    z-index:2;
+    right:0;
+    //color: yellow; 
+  
+}
+
+//----------------
+
+#progress03 {
+    position:relative;
+    width:250px;
+    height:20px;
+    border:1px solid red;
+}
+
+#progress03 .progress-bar {
+    background:#4CAF50;
+    height:20px;
+    width:0%;
+    display:inline-block;
+}
+
+#progress03 .progress-text {
+    position:left;
+    z-index:2;
+    right:0;
+    //color: yellow; 
+  
+}
